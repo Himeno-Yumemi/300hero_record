@@ -1,4 +1,4 @@
-from config.config import get_config
+from ..config.config import get_config
 
 
 COOKIES = get_config('COOKIES')
