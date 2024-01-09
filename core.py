@@ -6,9 +6,9 @@ import json
 import httpx
 import traceback
 
-from config.config import get_config
-from update.headers import record_headers
-from update.json import hero_save_path
+from .config.config import get_config
+from .update.headers import record_headers
+from .update.json import hero_save_path
 
 record_url = get_config('record_url')
 rolename_url = record_url.get('rolename',None)

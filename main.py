@@ -2,7 +2,7 @@ from hoshino import Service
 import re
 import traceback
 
-from update.json import update_equip, update_hero
+from .update.json import update_equip, update_hero
 
 from .database import UserInfo,init
 from .user import binding_role
