@@ -4,16 +4,13 @@ import os
 import traceback
 from ..config.config import get_config
 from .headers import equip_headers, hero_headers
+from ..core import hero_save_path, equip_save_path
 
 url_config = get_config('json_url')
 equip_jjc_url = url_config.get('equip_jjc', None)
 equip_zc_url = url_config.get('equip_zc', None)
 
 hero_url = url_config.get('hero', None)
-
-current_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),'data')
-hero_save_path = os.path.join(current_dir, 'hero.json')
-equip_save_path = os.path.join(current_dir, 'equip.json')
 
 async def fetch_data(url, headers, data=None):
     try:

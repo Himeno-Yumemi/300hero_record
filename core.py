@@ -5,10 +5,14 @@ from PIL import Image, ImageDraw, ImageFont
 import json
 import httpx
 import traceback
+import os
 
 from .config.config import get_config
 from .update.headers import record_headers
-from .update.json import hero_save_path
+
+current_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),'data')
+hero_save_path = os.path.join(current_dir, 'hero.json')
+equip_save_path = os.path.join(current_dir, 'equip.json')
 
 record_url = get_config('record_url')
 rolename_url = record_url.get('rolename',None)
