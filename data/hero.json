@@ -1,0 +1,1287 @@
+[
+    {
+        "id": 331,
+        "name": "飘舞诺·乔巴纳",
+        "head": "UI\\head\\role\\chara_0255.bmp"
+    },
+    {
+        "id": 314,
+        "name": "芙蕾雅",
+        "head": "UI\\head\\role\\chara_0314.bmp"
+    },
+    {
+        "id": 313,
+        "name": "苍星石",
+        "head": "UI\\Head\\role\\chara_0313.bmp"
+    },
+    {
+        "id": 312,
+        "name": "石神千空",
+        "head": "UI\\head\\role\\chara_0312.bmp"
+    },
+    {
+        "id": 311,
+        "name": "琪露诺",
+        "head": "UI\\head\\role\\chara_0311.bmp"
+    },
+    {
+        "id": 310,
+        "name": "蕾姆",
+        "head": "UI\\Head\\role\\chara_0310.bmp"
+    },
+    {
+        "id": 308,
+        "name": "木更",
+        "head": "UI\\head\\role\\chara_0308.bmp"
+    },
+    {
+        "id": 307,
+        "name": "空条徐伦",
+        "head": "UI\\head\\role\\chara_0307.bmp"
+    },
+    {
+        "id": 306,
+        "name": "电次",
+        "head": "UI\\head\\role\\chara_0306.bmp"
+    },
+    {
+        "id": 305,
+        "name": "温蒂",
+        "head": "UI\\Head\\role\\chara_0305.bmp"
+    },
+    {
+        "id": 304,
+        "name": "茵蒂克丝",
+        "head": "UI\\Head\\role\\chara_0304.bmp"
+    },
+    {
+        "id": 303,
+        "name": "菈菈",
+        "head": "UI\\Head\\role\\chara_0303.bmp"
+    },
+    {
+        "id": 302,
+        "name": "风鸣翼",
+        "head": "UI\\head\\role\\chara_0302.bmp"
+    },
+    {
+        "id": 301,
+        "name": "狱寺隼人",
+        "head": "UI\\Head\\role\\chara_0301.bmp"
+    },
+    {
+        "id": 300,
+        "name": "凯菈",
+        "head": "UI\\head\\role\\chara_0300.bmp"
+    },
+    {
+        "id": 296,
+        "name": "夏提雅",
+        "head": "UI\\Head\\role\\chara_0296.bmp"
+    },
+    {
+        "id": 295,
+        "name": "古明地觉&古明地恋",
+        "head": "UI\\head\\role\\chara_0295.bmp"
+    },
+    {
+        "id": 294,
+        "name": "逢坂大河",
+        "head": "UI\\head\\role\\chara_0294.bmp"
+    },
+    {
+        "id": 293,
+        "name": "红美铃",
+        "head": "UI\\head\\role\\chara_0293.bmp"
+    },
+    {
+        "id": 292,
+        "name": "木之本樱",
+        "head": "UI\\head\\role\\chara_0292.bmp"
+    },
+    {
+        "id": 291,
+        "name": "结城友奈",
+        "head": "UI\\head\\role\\chara_0261.bmp"
+    },
+    {
+        "id": 290,
+        "name": "申屠子夜",
+        "head": "UI\\head\\role\\chara_0290.bmp"
+    },
+    {
+        "id": 289,
+        "name": "莉姆",
+        "head": "UI\\Head\\role\\chara_0289.bmp"
+    },
+    {
+        "id": 288,
+        "name": "闻人翊悬",
+        "head": "UI\\head\\role\\chara_0288.bmp"
+    },
+    {
+        "id": 287,
+        "name": "赛贝丝",
+        "head": "UI\\head\\role\\chara_0287.bmp"
+    },
+    {
+        "id": 286,
+        "name": "食蜂操祈",
+        "head": "UI\\head\\role\\chara_0286.bmp"
+    },
+    {
+        "id": 285,
+        "name": "吉良吉影",
+        "head": "UI\\head\\role\\chara_0285.bmp"
+    },
+    {
+        "id": 284,
+        "name": "托尔",
+        "head": "UI\\Head\\role\\chara_0284.bmp"
+    },
+    {
+        "id": 283,
+        "name": "帕秋莉·诺蕾姬",
+        "head": "UI\\head\\role\\chara_0283.bmp"
+    },
+    {
+        "id": 282,
+        "name": "和真&惠惠",
+        "head": "UI\\head\\role\\chara_0282.bmp"
+    },
+    {
+        "id": 281,
+        "name": "藤原妹红",
+        "head": "UI\\head\\role\\chara_0281.bmp"
+    },
+    {
+        "id": 280,
+        "name": "王也",
+        "head": "UI\\Head\\role\\chara_0280.bmp"
+    },
+    {
+        "id": 279,
+        "name": "涂山红红",
+        "head": "UI\\head\\role\\chara_0279.bmp"
+    },
+    {
+        "id": 278,
+        "name": "C.C.",
+        "head": "UI\\head\\role\\chara_0278.bmp"
+    },
+    {
+        "id": 276,
+        "name": "梅普露",
+        "head": "UI\\head\\role\\chara_0276.bmp"
+    },
+    {
+        "id": 275,
+        "name": "蓬莱山辉夜",
+        "head": "UI\\head\\role\\chara_0275.bmp"
+    },
+    {
+        "id": 274,
+        "name": "蝴蝶忍",
+        "head": "UI\\head\\role\\chara_0274.bmp"
+    },
+    {
+        "id": 273,
+        "name": "机械神梅普露",
+        "head": "UI\\head\\role\\chara_0273.bmp"
+    },
+    {
+        "id": 272,
+        "name": "梅普露",
+        "head": "UI\\head\\role\\chara_0272.bmp"
+    },
+    {
+        "id": 271,
+        "name": "环彩羽",
+        "head": "UI\\head\\role\\chara_0271.bmp"
+    },
+    {
+        "id": 270,
+        "name": "迪奥·布兰度",
+        "head": "UI\\head\\role\\chara_0270.bmp"
+    },
+    {
+        "id": 269,
+        "name": "尤吉欧",
+        "head": "UI\\head\\role\\chara_0269.bmp"
+    },
+    {
+        "id": 268,
+        "name": "射命丸文",
+        "head": "UI\\Head\\role\\chara_0268.bmp"
+    },
+    {
+        "id": 267,
+        "name": "灶门炭治郎",
+        "head": "UI\\Head\\role\\chara_0267.bmp"
+    },
+    {
+        "id": 266,
+        "name": "冯宝宝",
+        "head": "UI\\head\\role\\chara_0266.bmp"
+    },
+    {
+        "id": 265,
+        "name": "格蕾",
+        "head": "UI\\head\\role\\chara_0265.bmp"
+    },
+    {
+        "id": 264,
+        "name": "美游",
+        "head": "UI\\Head\\role\\chara_0264.bmp"
+    },
+    {
+        "id": 263,
+        "name": "真红",
+        "head": "UI\\head\\role\\chara_0263.bmp"
+    },
+    {
+        "id": 262,
+        "name": "爱丽丝·玛格特罗依德",
+        "head": "UI\\Head\\role\\chara_0262.bmp"
+    },
+    {
+        "id": 260,
+        "name": "莉法",
+        "head": "UI\\head\\role\\chara_0260.bmp"
+    },
+    {
+        "id": 259,
+        "name": "伍六七",
+        "head": "UI\\head\\role\\chara_0259.bmp"
+    },
+    {
+        "id": 258,
+        "name": "波风水门",
+        "head": "UI\\head\\role\\chara_0258.bmp"
+    },
+    {
+        "id": 257,
+        "name": "妮姆芙",
+        "head": "UI\\Head\\role\\chara_0257.bmp"
+    },
+    {
+        "id": 256,
+        "name": "埼玉",
+        "head": "UI\\head\\role\\chara_0256.bmp"
+    },
+    {
+        "id": 255,
+        "name": "乔鲁诺·乔巴纳",
+        "head": "UI\\head\\role\\chara_0255.bmp"
+    },
+    {
+        "id": 254,
+        "name": "间桐樱",
+        "head": "UI\\Head\\role\\chara_0254.bmp"
+    },
+    {
+        "id": 253,
+        "name": "美杜莎",
+        "head": "UI\\head\\role\\chara_0253.bmp"
+    },
+    {
+        "id": 251,
+        "name": "蕾西亚",
+        "head": "UI\\head\\role\\chara_0251.bmp"
+    },
+    {
+        "id": 250,
+        "name": "伍六七",
+        "head": "UI\\head\\role\\chara_0250.bmp"
+    },
+    {
+        "id": 249,
+        "name": "爱丽丝",
+        "head": "UI\\head\\role\\chara_0249.bmp"
+    },
+    {
+        "id": 248,
+        "name": "琉璃",
+        "head": "UI\\head\\role\\chara_0248.bmp"
+    },
+    {
+        "id": 247,
+        "name": "迪斯卓尔",
+        "head": "UI\\head\\role\\chara_0247.bmp"
+    },
+    {
+        "id": 246,
+        "name": "少司命",
+        "head": "UI\\Head\\role\\chara_0246.bmp"
+    },
+    {
+        "id": 245,
+        "name": "曹焱兵",
+        "head": "UI\\Head\\role\\chara_0245.bmp"
+    },
+    {
+        "id": 244,
+        "name": "常宣灵",
+        "head": "UI\\head\\role\\chara_0244.bmp"
+    },
+    {
+        "id": 243,
+        "name": "常昊灵",
+        "head": "UI\\head\\role\\chara_0243.bmp"
+    },
+    {
+        "id": 242,
+        "name": "潘多拉",
+        "head": "UI\\head\\role\\chara_0242.bmp"
+    },
+    {
+        "id": 241,
+        "name": "我妻由乃",
+        "head": "UI\\head\\role\\chara_0241.bmp"
+    },
+    {
+        "id": 240,
+        "name": "西行寺幽幽子",
+        "head": "UI\\Head\\role\\chara_0240.bmp"
+    },
+    {
+        "id": 239,
+        "name": "夜斗",
+        "head": "UI\\Head\\role\\chara_0239.bmp"
+    },
+    {
+        "id": 238,
+        "name": "爱蜜莉雅",
+        "head": "UI\\Head\\role\\chara_0238.bmp"
+    },
+    {
+        "id": 237,
+        "name": "雅儿贝德",
+        "head": "UI\\head\\role\\chara_0237.bmp"
+    },
+    {
+        "id": 236,
+        "name": "佩姬",
+        "head": "UI\\head\\role\\chara_0236.bmp"
+    },
+    {
+        "id": 235,
+        "name": "神裂火织",
+        "head": "UI\\head\\role\\chara_0235.bmp"
+    },
+    {
+        "id": 234,
+        "name": "康娜",
+        "head": "UI\\head\\role\\chara_0234.bmp"
+    },
+    {
+        "id": 233,
+        "name": "珂朵莉",
+        "head": "UI\\head\\role\\chara_0233.bmp"
+    },
+    {
+        "id": 232,
+        "name": "阿尔泰尔",
+        "head": "UI\\Head\\role\\chara_0232.bmp"
+    },
+    {
+        "id": 231,
+        "name": "阿库娅",
+        "head": "UI\\head\\role\\chara_0231.bmp"
+    },
+    {
+        "id": 230,
+        "name": "芙兰朵露",
+        "head": "UI\\Head\\role\\chara_0230.bmp"
+    },
+    {
+        "id": 229,
+        "name": "安兹乌尔恭",
+        "head": "UI\\Head\\role\\chara_0229.bmp"
+    },
+    {
+        "id": 228,
+        "name": "塞巴斯蒂安",
+        "head": "UI\\head\\role\\chara_0228.bmp"
+    },
+    {
+        "id": 227,
+        "name": "小一",
+        "head": "UI\\head\\role\\chara_0227.bmp"
+    },
+    {
+        "id": 226,
+        "name": "库·丘林",
+        "head": "UI\\head\\role\\chara_0226.bmp"
+    },
+    {
+        "id": 225,
+        "name": "夜雨声烦",
+        "head": "UI\\head\\role\\chara_0225.bmp"
+    },
+    {
+        "id": 224,
+        "name": "君莫笑",
+        "head": "UI\\head\\role\\chara_0224.bmp"
+    },
+    {
+        "id": 223,
+        "name": "三千院凪",
+        "head": "UI\\Head\\role\\chara_0223.bmp"
+    },
+    {
+        "id": 222,
+        "name": "玉藻前",
+        "head": "UI\\Head\\role\\chara_0222.bmp"
+    },
+    {
+        "id": 221,
+        "name": "黑贞德",
+        "head": "UI\\Head\\role\\chara_0221.bmp"
+    },
+    {
+        "id": 220,
+        "name": "贞德",
+        "head": "UI\\Head\\role\\chara_0220.bmp"
+    },
+    {
+        "id": 219,
+        "name": "贞德",
+        "head": "UI\\Head\\role\\chara_0219.bmp"
+    },
+    {
+        "id": 218,
+        "name": "雾雨魔理沙",
+        "head": "UI\\Head\\role\\chara_0218.bmp"
+    },
+    {
+        "id": 217,
+        "name": "阿斯托尔福",
+        "head": "UI\\Head\\role\\chara_0217.bmp"
+    },
+    {
+        "id": 216,
+        "name": "空",
+        "head": "UI\\head\\role\\chara_0216.bmp"
+    },
+    {
+        "id": 215,
+        "name": "白",
+        "head": "UI\\Head\\role\\chara_0215.bmp"
+    },
+    {
+        "id": 214,
+        "name": "香风智乃",
+        "head": "UI\\Head\\role\\chara_0214.bmp"
+    },
+    {
+        "id": 213,
+        "name": "鲁路修",
+        "head": "UI\\head\\role\\chara_0213.bmp"
+    },
+    {
+        "id": 212,
+        "name": "赤瞳",
+        "head": "UI\\head\\role\\chara_0212.bmp"
+    },
+    {
+        "id": 211,
+        "name": "艾露莎",
+        "head": "UI\\head\\role\\chara_0211.bmp"
+    },
+    {
+        "id": 210,
+        "name": "赵云",
+        "head": "UI\\head\\role\\chara_0210.bmp"
+    },
+    {
+        "id": 209,
+        "name": "司波达也",
+        "head": "UI\\head\\role\\chara_0209.bmp"
+    },
+    {
+        "id": 208,
+        "name": "八神疾风",
+        "head": "UI\\head\\role\\chara_0208.bmp"
+    },
+    {
+        "id": 207,
+        "name": "蕾米莉亚",
+        "head": "UI\\head\\role\\chara_0207.bmp"
+    },
+    {
+        "id": 206,
+        "name": "月刊重巡",
+        "head": "UI\\head\\role\\chara_0206.bmp"
+    },
+    {
+        "id": 205,
+        "name": "无名",
+        "head": "UI\\head\\role\\chara_0205.bmp"
+    },
+    {
+        "id": 204,
+        "name": "法老王",
+        "head": "UI\\head\\role\\chara_0204.bmp"
+    },
+    {
+        "id": 203,
+        "name": "爱德华",
+        "head": "UI\\head\\role\\chara_0203.bmp"
+    },
+    {
+        "id": 202,
+        "name": "周防尊",
+        "head": "UI\\head\\role\\chara_0202.bmp"
+    },
+    {
+        "id": 201,
+        "name": "水银灯",
+        "head": "UI\\head\\role\\chara_0201.bmp"
+    },
+    {
+        "id": 200,
+        "name": "洛克李",
+        "head": "UI\\head\\role\\chara_0200.bmp"
+    },
+    {
+        "id": 199,
+        "name": "优克莉伍德",
+        "head": "UI\\Head\\role\\chara_0199.bmp"
+    },
+    {
+        "id": 198,
+        "name": "伊斯坎达尔",
+        "head": "UI\\head\\role\\chara_0198.bmp"
+    },
+    {
+        "id": 197,
+        "name": "缇米",
+        "head": "UI\\head\\role\\chara_0197.bmp"
+    },
+    {
+        "id": 196,
+        "name": "柏崎星奈",
+        "head": "UI\\Head\\role\\chara_0196.bmp"
+    },
+    {
+        "id": 195,
+        "name": "沢田纲吉",
+        "head": "UI\\head\\role\\chara_0195.bmp"
+    },
+    {
+        "id": 194,
+        "name": "栗山未来",
+        "head": "UI\\head\\role\\chara_0194.bmp"
+    },
+    {
+        "id": 193,
+        "name": "伊莎",
+        "head": "UI\\head\\role\\chara_0193.bmp"
+    },
+    {
+        "id": 192,
+        "name": "牧濑红莉栖",
+        "head": "UI\\head\\role\\chara_0192.bmp"
+    },
+    {
+        "id": 191,
+        "name": "一方通行",
+        "head": "UI\\head\\role\\chara_0191.bmp"
+    },
+    {
+        "id": 190,
+        "name": "蒂塔",
+        "head": "UI\\head\\role\\chara_0190.bmp"
+    },
+    {
+        "id": 189,
+        "name": "歌姬",
+        "head": "UI\\head\\role\\chara_0189.bmp"
+    },
+    {
+        "id": 188,
+        "name": "魂魄妖梦",
+        "head": "UI\\head\\role\\chara_0188.bmp"
+    },
+    {
+        "id": 187,
+        "name": "Player1",
+        "head": "UI\\head\\role\\chara_0187.bmp"
+    },
+    {
+        "id": 186,
+        "name": "克子",
+        "head": "UI\\head\\role\\chara_0186.bmp"
+    },
+    {
+        "id": 185,
+        "name": "诺瓦露",
+        "head": "UI\\head\\role\\chara_0185.bmp"
+    },
+    {
+        "id": 184,
+        "name": "亚里亚",
+        "head": "UI\\head\\role\\chara_0184.bmp"
+    },
+    {
+        "id": 183,
+        "name": "大傻",
+        "head": "UI\\head\\role\\chara_0183.bmp"
+    },
+    {
+        "id": 181,
+        "name": "巴麻美",
+        "head": "UI\\head\\role\\chara_0181.bmp"
+    },
+    {
+        "id": 180,
+        "name": "尼禄",
+        "head": "UI\\head\\role\\chara_0180.bmp"
+    },
+    {
+        "id": 174,
+        "name": "天使",
+        "head": "UI\\head\\role\\chara_0174.bmp"
+    },
+    {
+        "id": 172,
+        "name": "隐居者",
+        "head": "UI\\head\\role\\chara_0172.bmp"
+    },
+    {
+        "id": 171,
+        "name": "独眼之王",
+        "head": "UI\\head\\role\\chara_0171.bmp"
+    },
+    {
+        "id": 170,
+        "name": "炎魔",
+        "head": "UI\\head\\role\\chara_0170.bmp"
+    },
+    {
+        "id": 169,
+        "name": "菲特",
+        "head": "UI\\head\\role\\chara_0169.bmp"
+    },
+    {
+        "id": 168,
+        "name": "伊莉雅",
+        "head": "UI\\head\\role\\chara_0168.bmp"
+    },
+    {
+        "id": 167,
+        "name": "冰之狙击手",
+        "head": "UI\\Head\\role\\chara_0167.bmp"
+    },
+    {
+        "id": 166,
+        "name": "佐仓杏子",
+        "head": "UI\\head\\role\\chara_0166.bmp"
+    },
+    {
+        "id": 165,
+        "name": "高町奈叶",
+        "head": "UI\\head\\role\\chara_0165.bmp"
+    },
+    {
+        "id": 164,
+        "name": "黑雪姬",
+        "head": "UI\\head\\role\\chara_0164.bmp"
+    },
+    {
+        "id": 163,
+        "name": "空条承太郎",
+        "head": "UI\\head\\role\\chara_0163.bmp"
+    },
+    {
+        "id": 162,
+        "name": "美树沙耶加",
+        "head": "UI\\head\\role\\chara_0162.bmp"
+    },
+    {
+        "id": 161,
+        "name": "奇犽",
+        "head": "UI\\head\\role\\chara_0161.bmp"
+    },
+    {
+        "id": 160,
+        "name": "远坂凛",
+        "head": "UI\\head\\role\\chara_0160.bmp"
+    },
+    {
+        "id": 159,
+        "name": "龙教练",
+        "head": "UI\\head\\role\\chara_0159.bmp"
+    },
+    {
+        "id": 158,
+        "name": "喔",
+        "head": "UI\\head\\role\\chara_0158.bmp"
+    },
+    {
+        "id": 157,
+        "name": "五更琉璃",
+        "head": "UI\\head\\role\\chara_0157.bmp"
+    },
+    {
+        "id": 156,
+        "name": "卫宫",
+        "head": "UI\\head\\role\\chara_0156.bmp"
+    },
+    {
+        "id": 155,
+        "name": "两仪式",
+        "head": "UI\\Head\\role\\chara_0155.bmp"
+    },
+    {
+        "id": 154,
+        "name": "立华奏",
+        "head": "UI\\head\\role\\chara_0154.bmp"
+    },
+    {
+        "id": 153,
+        "name": "白岩射手",
+        "head": "UI\\head\\role\\chara_0153.bmp"
+    },
+    {
+        "id": 152,
+        "name": "奈亚子",
+        "head": "UI\\head\\role\\chara_0152.bmp"
+    },
+    {
+        "id": 151,
+        "name": "八云紫",
+        "head": "UI\\head\\role\\chara_0151.bmp"
+    },
+    {
+        "id": 150,
+        "name": "鹿目圆香",
+        "head": "UI\\head\\role\\chara_0150.bmp"
+    },
+    {
+        "id": 149,
+        "name": "梦梦",
+        "head": "UI\\head\\role\\chara_0149.bmp"
+    },
+    {
+        "id": 148,
+        "name": "樱满集",
+        "head": "UI\\head\\role\\chara_0148.bmp"
+    },
+    {
+        "id": 147,
+        "name": "白井黑子",
+        "head": "UI\\head\\role\\chara_0147.bmp"
+    },
+    {
+        "id": 146,
+        "name": "涅普顿",
+        "head": "UI\\head\\role\\chara_0146.bmp"
+    },
+    {
+        "id": 145,
+        "name": "纏流子",
+        "head": "UI\\head\\role\\chara_0145.bmp"
+    },
+    {
+        "id": 144,
+        "name": "金色之暗",
+        "head": "UI\\head\\role\\chara_0144.bmp"
+    },
+    {
+        "id": 143,
+        "name": "晓美焰",
+        "head": "UI\\head\\role\\chara_0143.bmp"
+    },
+    {
+        "id": 142,
+        "name": "公主",
+        "head": "UI\\head\\role\\chara_0142.bmp"
+    },
+    {
+        "id": 140,
+        "name": "小鸟游六花",
+        "head": "UI\\head\\role\\chara_0140.bmp"
+    },
+    {
+        "id": 139,
+        "name": "万年小学生",
+        "head": "UI\\head\\role\\chara_0139.bmp"
+    },
+    {
+        "id": 138,
+        "name": "伊卡洛斯",
+        "head": "UI\\head\\role\\chara_0138.bmp"
+    },
+    {
+        "id": 137,
+        "name": "坂田银时",
+        "head": "UI\\head\\role\\chara_0137.bmp"
+    },
+    {
+        "id": 136,
+        "name": "夜夜",
+        "head": "UI\\head\\role\\chara_0136.bmp"
+    },
+    {
+        "id": 135,
+        "name": "十六夜咲夜",
+        "head": "UI\\head\\role\\chara_0135.bmp"
+    },
+    {
+        "id": 134,
+        "name": "梦魇",
+        "head": "UI\\head\\role\\chara_0134.bmp"
+    },
+    {
+        "id": 131,
+        "name": "陈美嘉",
+        "head": "UI\\Head\\role\\chara_0131.bmp"
+    },
+    {
+        "id": 130,
+        "name": "吕子乔",
+        "head": "UI\\head\\role\\chara_0130.bmp"
+    },
+    {
+        "id": 129,
+        "name": "胡一菲",
+        "head": "UI\\head\\role\\chara_0129.bmp"
+    },
+    {
+        "id": 128,
+        "name": "喜羊羊",
+        "head": "UI\\head\\role\\chara_0128.bmp"
+    },
+    {
+        "id": 126,
+        "name": "真田幸村",
+        "head": "UI\\head\\role\\chara_0126.bmp"
+    },
+    {
+        "id": 122,
+        "name": "强袭自由",
+        "head": "UI\\head\\role\\chara_0122.bmp"
+    },
+    {
+        "id": 121,
+        "name": "绯村剑心",
+        "head": "UI\\head\\role\\chara_0121.bmp"
+    },
+    {
+        "id": 120,
+        "name": "姬丝秀忒",
+        "head": "UI\\head\\role\\chara_0120.bmp"
+    },
+    {
+        "id": 119,
+        "name": "李小狼",
+        "head": "UI\\Head\\role\\chara_0119.bmp"
+    },
+    {
+        "id": 118,
+        "name": "黑",
+        "head": "UI\\head\\role\\chara_0118.bmp"
+    },
+    {
+        "id": 117,
+        "name": "桂木桂马",
+        "head": "UI\\head\\role\\chara_0117.bmp"
+    },
+    {
+        "id": 115,
+        "name": "贵公子",
+        "head": "UI\\Head\\role\\chara_0115.bmp"
+    },
+    {
+        "id": 113,
+        "name": "片翼天使",
+        "head": "UI\\Head\\role\\chara_0113.bmp"
+    },
+    {
+        "id": 112,
+        "name": "小悟空",
+        "head": "UI\\Head\\role\\chara_0112.bmp"
+    },
+    {
+        "id": 110,
+        "name": "格雷",
+        "head": "UI\\head\\role\\chara_0110.bmp"
+    },
+    {
+        "id": 109,
+        "name": "夏娜",
+        "head": "UI\\head\\role\\chara_0109.bmp"
+    },
+    {
+        "id": 108,
+        "name": "楪祈",
+        "head": "UI\\head\\role\\chara_0108.bmp"
+    },
+    {
+        "id": 107,
+        "name": "笠笠笠",
+        "head": "UI\\head\\role\\chara_0107.bmp"
+    },
+    {
+        "id": 105,
+        "name": "秋山澪",
+        "head": "UI\\head\\role\\chara_0105.bmp"
+    },
+    {
+        "id": 104,
+        "name": "吉尔伽美什",
+        "head": "UI\\head\\role\\chara_0104.bmp"
+    },
+    {
+        "id": 102,
+        "name": "黑衣剑士",
+        "head": "UI\\head\\role\\chara_0102.bmp"
+    },
+    {
+        "id": 101,
+        "name": "黑岩射手",
+        "head": "UI\\head\\role\\chara_0101.bmp"
+    },
+    {
+        "id": 100,
+        "name": "博丽灵梦",
+        "head": "UI\\head\\role\\chara_0100.bmp"
+    },
+    {
+        "id": 96,
+        "name": "御坂美琴",
+        "head": "UI\\head\\role\\chara_0096.bmp"
+    },
+    {
+        "id": 94,
+        "name": "四方川菖蒲",
+        "head": "UI\\Head\\role\\chara_0094.bmp"
+    },
+    {
+        "id": 93,
+        "name": "达克尼斯",
+        "head": "UI\\Head\\role\\chara_0093.bmp"
+    },
+    {
+        "id": 92,
+        "name": "无头骑士",
+        "head": "UI\\Head\\role\\chara_0092.bmp"
+    },
+    {
+        "id": 91,
+        "name": "天草四郎时贞",
+        "head": "UI\\Head\\role\\chara_0091.bmp"
+    },
+    {
+        "id": 90,
+        "name": "美狄亚",
+        "head": "UI\\Head\\role\\chara_0090.bmp"
+    },
+    {
+        "id": 89,
+        "name": "幻刺·D·露西",
+        "head": "UI\\Head\\role\\chara_0089.bmp"
+    },
+    {
+        "id": 88,
+        "name": "舰队统帅",
+        "head": "UI\\Head\\role\\chara_0088.bmp"
+    },
+    {
+        "id": 87,
+        "name": "幻刺·L·莉莉",
+        "head": "UI\\Head\\role\\chara_0087.bmp"
+    },
+    {
+        "id": 86,
+        "name": "死神",
+        "head": "UI\\head\\role\\chara_0086.bmp"
+    },
+    {
+        "id": 85,
+        "name": "佐罗",
+        "head": "UI\\head\\role\\chara_0085.bmp"
+    },
+    {
+        "id": 84,
+        "name": "战士娃",
+        "head": "UI\\head\\role\\chara_0084.bmp"
+    },
+    {
+        "id": 83,
+        "name": "猎人娃",
+        "head": "UI\\head\\role\\chara_0083.bmp"
+    },
+    {
+        "id": 82,
+        "name": "牧师娃",
+        "head": "UI\\Head\\role\\chara_0082.bmp"
+    },
+    {
+        "id": 81,
+        "name": "骑士娃",
+        "head": "UI\\head\\role\\chara_0081.bmp"
+    },
+    {
+        "id": 80,
+        "name": "术士娃",
+        "head": "UI\\head\\role\\chara_0080.bmp"
+    },
+    {
+        "id": 79,
+        "name": "法师娃",
+        "head": "UI\\head\\role\\chara_0079.bmp"
+    },
+    {
+        "id": 78,
+        "name": "盗贼娃",
+        "head": "UI\\head\\role\\chara_0078.bmp"
+    },
+    {
+        "id": 76,
+        "name": "狂暴补师",
+        "head": "UI\\head\\role\\chara_0076.bmp"
+    },
+    {
+        "id": 75,
+        "name": "纳兹",
+        "head": "UI\\head\\role\\chara_0075.bmp"
+    },
+    {
+        "id": 72,
+        "name": "卡殿下",
+        "head": "UI\\head\\role\\chara_0072.bmp"
+    },
+    {
+        "id": 71,
+        "name": "胡子船长",
+        "head": "UI\\head\\role\\chara_0071.bmp"
+    },
+    {
+        "id": 70,
+        "name": "青丘国主",
+        "head": "UI\\head\\role\\chara_0070.bmp"
+    },
+    {
+        "id": 69,
+        "name": "左二少",
+        "head": "UI\\head\\role\\chara_0069.bmp"
+    },
+    {
+        "id": 67,
+        "name": "火拳·S",
+        "head": "UI\\Head\\role\\chara_0067.bmp"
+    },
+    {
+        "id": 66,
+        "name": "蛇血舞姬",
+        "head": "UI\\head\\role\\chara_0066.bmp"
+    },
+    {
+        "id": 65,
+        "name": "蛇叔",
+        "head": "UI\\Head\\role\\chara_0065.bmp"
+    },
+    {
+        "id": 64,
+        "name": "白鬼院凛凛蝶",
+        "head": "UI\\head\\role\\chara_0064.bmp"
+    },
+    {
+        "id": 63,
+        "name": "梅比斯",
+        "head": "UI\\head\\role\\chara_0063.bmp"
+    },
+    {
+        "id": 62,
+        "name": "摩尔迦娜",
+        "head": "UI\\head\\role\\chara_0062.bmp"
+    },
+    {
+        "id": 61,
+        "name": "貂蝉",
+        "head": "UI\\head\\role\\chara_0061.bmp"
+    },
+    {
+        "id": 60,
+        "name": "立花响",
+        "head": "UI\\head\\role\\chara_0060.bmp"
+    },
+    {
+        "id": 59,
+        "name": "库奇",
+        "head": "UI\\head\\role\\chara_0059.bmp"
+    },
+    {
+        "id": 58,
+        "name": "神目黑刀",
+        "head": "UI\\head\\role\\chara_0058.bmp"
+    },
+    {
+        "id": 57,
+        "name": "乔帮主",
+        "head": "UI\\head\\role\\chara_0057.bmp"
+    },
+    {
+        "id": 56,
+        "name": "巴依老爷",
+        "head": "UI\\head\\role\\chara_0056.bmp"
+    },
+    {
+        "id": 55,
+        "name": "雅典娜",
+        "head": "UI\\head\\role\\chara_0055.bmp"
+    },
+    {
+        "id": 54,
+        "name": "神乐",
+        "head": "UI\\head\\role\\chara_0054.bmp"
+    },
+    {
+        "id": 53,
+        "name": "亚瑟王",
+        "head": "UI\\head\\role\\chara_0053.bmp"
+    },
+    {
+        "id": 52,
+        "name": "我受罗",
+        "head": "UI\\head\\role\\chara_0052.bmp"
+    },
+    {
+        "id": 51,
+        "name": "匹诺曹",
+        "head": "UI\\head\\role\\chara_0051.bmp"
+    },
+    {
+        "id": 50,
+        "name": "黑羽快斗",
+        "head": "UI\\Head\\role\\chara_0050.bmp"
+    },
+    {
+        "id": 48,
+        "name": "草帽小子",
+        "head": "UI\\Head\\role\\chara_0048.bmp"
+    },
+    {
+        "id": 47,
+        "name": "七宫智音",
+        "head": "UI\\Head\\role\\chara_0047.bmp"
+    },
+    {
+        "id": 46,
+        "name": "莉娜·因巴斯",
+        "head": "UI\\Head\\role\\chara_0046.bmp"
+    },
+    {
+        "id": 45,
+        "name": "浅间·智",
+        "head": "UI\\Head\\role\\chara_0045.bmp"
+    },
+    {
+        "id": 44,
+        "name": "跳跃临时工",
+        "head": "UI\\Head\\role\\chara_0044.bmp"
+    },
+    {
+        "id": 43,
+        "name": "弗兰肯斯坦",
+        "head": "UI\\Head\\role\\chara_0043.bmp"
+    },
+    {
+        "id": 42,
+        "name": "缇娜",
+        "head": "UI\\Head\\role\\chara_0042.bmp"
+    },
+    {
+        "id": 41,
+        "name": "赫拉克勒斯",
+        "head": "UI\\Head\\role\\chara_0041.bmp"
+    },
+    {
+        "id": 40,
+        "name": "战场原黑仪",
+        "head": "UI\\Head\\role\\chara_0040.bmp"
+    },
+    {
+        "id": 39,
+        "name": "土间埋",
+        "head": "UI\\Head\\role\\chara_0039.bmp"
+    },
+    {
+        "id": 38,
+        "name": "风音日和",
+        "head": "UI\\Head\\role\\chara_0038.bmp"
+    },
+    {
+        "id": 37,
+        "name": "司波深雪",
+        "head": "UI\\Head\\role\\chara_0037.bmp"
+    },
+    {
+        "id": 36,
+        "name": "富樫勇太",
+        "head": "UI\\Head\\role\\chara_0036.bmp"
+    },
+    {
+        "id": 35,
+        "name": "圣大人",
+        "head": "UI\\Head\\role\\chara_0035.bmp"
+    },
+    {
+        "id": 34,
+        "name": "雪菜",
+        "head": "UI\\Head\\role\\chara_0034.bmp"
+    },
+    {
+        "id": 33,
+        "name": "凸守早苗",
+        "head": "UI\\Head\\role\\chara_0033.bmp"
+    },
+    {
+        "id": 32,
+        "name": "本多二代",
+        "head": "UI\\Head\\role\\chara_0032.bmp"
+    },
+    {
+        "id": 31,
+        "name": "天天",
+        "head": "UI\\Head\\role\\chara_0031.bmp"
+    },
+    {
+        "id": 30,
+        "name": "哈桑",
+        "head": "UI\\Head\\role\\chara_0030.bmp"
+    },
+    {
+        "id": 29,
+        "name": "沙耶",
+        "head": "UI\\Head\\role\\chara_0029.bmp"
+    },
+    {
+        "id": 23,
+        "name": "齐天小剩",
+        "head": "UI\\Head\\role\\chara_0023.bmp"
+    },
+    {
+        "id": 20,
+        "name": "阿尔冯斯",
+        "head": "UI\\Head\\role\\chara_0020.bmp"
+    },
+    {
+        "id": 18,
+        "name": "唐僧",
+        "head": "UI\\Head\\role\\chara_0018.bmp"
+    },
+    {
+        "id": 17,
+        "name": "平和岛静雄",
+        "head": "UI\\Head\\role\\chara_0017.bmp"
+    },
+    {
+        "id": 13,
+        "name": "天道佩恩",
+        "head": "UI\\Head\\role\\chara_0013.bmp"
+    }
+]

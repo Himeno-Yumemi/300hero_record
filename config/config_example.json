@@ -1,0 +1,17 @@
+{
+    "json_url":{
+        "equip_jjc":"https://300data.com/data/api/item_jjc_list",
+        "equip_zc":"https://300data.com/data/api/item_zc_list",
+        "hero": "https://300data.com/data/api/banner_hero_ex_list"
+    },
+    "COOKIES":{
+        "PHPSESSID": "",
+        "RECORD_COOKIES":""
+    },
+    "record_url":{
+        "rolename":"https://300report.jumpw.com/api/battle/searchNormal?type=h5",
+        "match_list":"https://300report.jumpw.com/api/battle/searchMatchs?type=h5",
+        "match_info":"https://300report.jumpw.com/api/battle/searchMatchinfo?type=h5"
+    },
+    "max_page": 8
+}
