@@ -2,8 +2,8 @@ import httpx
 import json
 import os
 import traceback
-from config.config import get_config
-from update.headers import equip_headers, hero_headers
+from ..config.config import get_config
+from .headers import equip_headers, hero_headers
 
 url_config = get_config('json_url')
 equip_jjc_url = url_config.get('equip_jjc', None)
