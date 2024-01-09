@@ -5,6 +5,8 @@ import os
 
 #同路径下database文件夹下的路径
 database_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),'database')
+if not os.path.exists(database_dir):
+    os.makedirs(database_dir)
 database_path = os.path.join(database_dir, 'user.sqlite3')
 
 class UserInfo(Model):

@@ -10,7 +10,7 @@ from .core import *
 import nonebot
 nonebot.on_startup(init)
 
-sv = Service('300heros', help_='''
+sv = Service('300hero_record', help_='''
 [zc/jjc 角色名] 查询角色战绩
              
 '''.strip())
