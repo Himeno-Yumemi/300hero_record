@@ -7,7 +7,7 @@ async def binding_role(uid,gid,name: str):
     if await UserInfo.get_info(uid,gid):
         return (
             f"\n角色修改为：\n{name}"
-            if await UserInfo.set_info(uid,gid **{"gid":gid,"name": name})
+            if await UserInfo.set_info(uid,gid,name=name)
             else "绑定发生错误"
         )
     await add_info(uid,gid,name)

@@ -9,6 +9,8 @@ from .user import binding_role
 from .core import *
 import nonebot
 nonebot.on_startup(init)
+from .config.config import get_config
+max_page = min(get_config('max_page'), 8)
 
 sv = Service('300hero_record', help_='''
 [zc/jjc 角色名] 查询角色战绩
@@ -45,7 +47,7 @@ async def _(bot, ev):
         await bot.send(ev, '查询失败',at_sender=True)
         return
     
-@sv.on_rex(re.compile(r'^(jjc)详情(\S*)$'))
+@sv.on_rex(re.compile(r'^(jjc)详情([1-9])(\S*)$'))
 async def _(bot, ev):
     try:
         match = ev['match']
@@ -54,10 +56,7 @@ async def _(bot, ev):
         if not (match_id := await match_type(match[1])):
             await bot.send(ev, '未知的比赛类型',at_sender=True)
             return
-        if match_number := int(match[2]):
-            if match_number not in [1,2,3,4,5]:
-                await bot.send(ev, '请输入正确的比赛序号',at_sender=True)
-                return
+        if not (user_name := match[3]):
             uid = int(ev.user_id)
             for i in ev.message:
                 if i.type == 'at':
@@ -66,6 +65,10 @@ async def _(bot, ev):
                 user_name = user.name
             else:
                 await bot.send(ev, '未查询到角色绑定信息',at_sender=True)
+                return
+        if match_number := int(match[2]):
+            if match_number > max_page:
+                await bot.send(ev, f'请输入{max_page}以内的序号',at_sender=True)
                 return
         else:
             await bot.send(ev, '请输入查询的比赛序号',at_sender=True)

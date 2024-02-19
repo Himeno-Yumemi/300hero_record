@@ -40,7 +40,7 @@ class UserInfo(Model):
     @classmethod
     async def set_info(cls,uid:int,gid:int,**kwargs):
         if await cls.get_or_none(uid=uid,gid=gid):
-            await cls.filter(uid=uid).update(**kwargs)
+            await cls.filter(uid=uid,gid=gid).update(**kwargs)
             return True
 
 async def init():

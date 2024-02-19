@@ -18,7 +18,7 @@ record_url = get_config('record_url')
 rolename_url = record_url.get('rolename',None)
 match_list_url = record_url.get('match_list',None)
 match_info_url = record_url.get('match_info',None)
-max_page = get_config('max_page')
+max_page = min(get_config('max_page'), 8)
 
 with open(hero_save_path, 'r', encoding='utf-8') as f:
     hero_json = json.load(f)
