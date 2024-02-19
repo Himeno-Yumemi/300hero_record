@@ -81,27 +81,39 @@
 
 群内发送  `绑定角色[测试名称]` 即可进行`测试名称`的绑定
 
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/1.png)
+
 绑定之后的指令不需要(测试名称)就能进行查询,且可以使用@进行他人的查询
 
 群内发送 `查看角色(@XXXX)` 可查看绑定角色信息,可@查看他人
+
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/2.png)
 
 ### 2-战绩查询
 
 群内发送  `jjc(测试名称)` 即可获取最近`测试名称`的对局信息。
 
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/3.png)
+
 ### 3-战绩详情查询
 
 群内发送 `jjc详情[1](测试名称)` 即可获取指定序号的对局详情数据。
+
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/4.png)
 
 ### 4-今日胜场查询
 
 群内发送 `jjc胜场(测试名称)` 即可获取指定用户的今日胜场数据。
 
-### 4-数据更新
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/5.png)
+
+### 5-数据更新
 
 支持机器人管理员进行游戏数据的更新。
 
 指令:`更新300英雄数据`
+
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/6.png)
 
 
 ### 鸣谢
