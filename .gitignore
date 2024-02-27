@@ -1,2 +1,5 @@
 config.json
 ces.py
+/image/
+*test*
+__pycache__/

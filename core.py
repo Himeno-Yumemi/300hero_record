@@ -22,9 +22,23 @@ max_page = min(get_config('max_page'), 8)
 
 with open(hero_save_path, 'r', encoding='utf-8') as f:
     hero_json = json.load(f)
+with open(equip_save_path, 'r', encoding='utf-8') as f:
+    equip_json = json.load(f)
 
 async def get_hero_name(hero_id):
-    return next((i['name'] for i in hero_json if i['id'] == hero_id), None)
+    if hero_data := hero_json.get(str(hero_id),None):
+        return hero_data['name']
+    return None
+
+async def get_hero_head(hero_id):
+    if hero_data := hero_json.get(str(hero_id),None):
+        return hero_data['head']
+    return None
+
+async def get_equip_path(equip_id):
+    if equip_data := equip_json.get(str(equip_id),None):
+        return equip_data['item_img']
+    return None
 
 async def get_user_rolename(rolename):
     try:
@@ -43,7 +57,7 @@ async def get_user_rolename(rolename):
         return None
 
 
-async def get_user_match_list(RoleID,match_type=1,match_index=1):
+async def get_user_match_list(RoleID,match_type=1,match_index=1,only_json=False):
     try:
         url = record_url.get('match_list',None)
         data ={
@@ -54,6 +68,8 @@ async def get_user_match_list(RoleID,match_type=1,match_index=1):
         async with httpx.AsyncClient(timeout=30) as client:
             response = await client.post(url=match_list_url,data=data,headers=record_headers)
         match_data = response.json()['data']['Matchs']['Matchs']
+        if only_json:
+            return match_data
         match_list =[]
         for i in match_data:
             UsedTime = int(i['UsedTime']/60)
@@ -123,7 +139,7 @@ async def get_match_detail(mtid):
         traceback.print_exc()
         return None
     
-async def get_match_detail_info(rolename,match_type=1,number=1):
+async def get_match_detail_info(rolename,match_type=1,number=1,only_json=False):
     try:
         if not (RoleID := await get_user_rolename(rolename)):
             return None
@@ -139,6 +155,8 @@ async def get_match_detail_info(rolename,match_type=1,number=1):
         MTID = match_data[number-1]['MTID']
         if not (detail_data := await get_match_detail(MTID)):
             return None
+        if only_json:
+            return detail_data
         CreateTime = datetime.fromtimestamp(int(detail_data['CreateTime'])).strftime('%Y-%m-%d %H:%M:%S')
         UsedTime = int(detail_data['UsedTime']/60)
         
@@ -215,12 +233,13 @@ async def send_user_match_info(match_list,match_type=1):
         traceback.print_exc()
         return None
 
-async def get_match_info(rolename,match_type=1,match_index=1):
+async def get_match_info(rolename,match_type=1,match_index=1,image_enable=False):
     try:
         if not (RoleID := await get_user_rolename(rolename)):
             return None
-        match_list = await get_user_match_list(RoleID,match_type,match_index)
-        if not match_list:
+        if image_enable:
+            return await get_user_match_list(RoleID,match_type,match_index,only_json=True)
+        if not (match_list := await get_user_match_list(RoleID,match_type,match_index)):
             return None
         return await send_user_match_info(match_list,match_type)
     except Exception:

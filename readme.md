@@ -9,6 +9,8 @@
 > 2024年1月9日 首次上传
 >
 > 2024年2月19日 修复绑定失败等错误,优化jjc详情(目前可以查询他人的对局详情),设置最大显示局数为8局
+> 
+> 2024年2月27日 图片功能测试
 ## 简介
 
 用于群里开庭群友,某些人经济吃完不干事,必须拷打
@@ -18,7 +20,7 @@
 > - 获取指定玩家的近`max_page`(最大为8)场竞技场或战场的核心数据
 > - 在群中以图片的形式发送,防止文本刷屏(图片版还在锐意制作中)
 > - 支持指令绑定玩家名，可以使用@进行对应玩家的查询。
-> - ~~指定对局的详细图片信息,仿游戏结算页面~~（还没做）
+> - 图片版本的各功能(测试中)
 > - ~~协议、业务分离设计，方便不同机器人平台进行移植~~ （模块分离了,指令还没改）
 
 
@@ -57,7 +59,11 @@
         "match_list":"https://300report.jumpw.com/api/battle/searchMatchs?type=h5", # 玩家对局列表api
         "match_info":"https://300report.jumpw.com/api/battle/searchMatchinfo?type=h5"   # 玩家对局详情api
     },
-    "max_page": 8   # 图片最大查询局数
+    "max_page": 8,   # 图片最大查询局数
+    "image":{
+        "enable": true,   # 是否启用图片功能
+        "font_name":"SourceHanSansSC-Regular.otf"  # 字体名称
+    }
 
 </code>
 
@@ -115,6 +121,13 @@
 
 ![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/6.png)
 
+### 6-图片功能
+
+支持 `jjc`和`jjc详情` 两个指令
+
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/7.png)
+
+![image](https://github.com/Himeno-Yumemi/300hero_record/blob/main/readme_image/8.png)
 
 ### 鸣谢
 

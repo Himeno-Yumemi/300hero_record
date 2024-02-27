@@ -5,12 +5,16 @@ import traceback
 from .update.json import update_equip, update_hero
 
 from .database import UserInfo,init
+from .draw import draw_jjc_info, draw_mini_info
 from .user import binding_role
 from .core import *
 import nonebot
 nonebot.on_startup(init)
 from .config.config import get_config
 max_page = min(get_config('max_page'), 8)
+image_config = get_config('image')
+font_name = image_config['font_name']
+image_enable = image_config['enable']
 
 sv = Service('300hero_record', help_='''
 [zc/jjc 角色名] 查询角色战绩
@@ -47,6 +51,44 @@ async def _(bot, ev):
         await bot.send(ev, '查询失败',at_sender=True)
         return
     
+# @sv.on_rex(re.compile(r'^(jjc)详情([1-9])(\S*)$'))
+# async def _(bot, ev):
+#     try:
+#         match = ev['match']
+#         gid = int(ev.group_id)
+#         print(match)
+#         if not (match_id := await match_type(match[1])):
+#             await bot.send(ev, '未知的比赛类型',at_sender=True)
+#             return
+#         if not (user_name := match[3]):
+#             uid = int(ev.user_id)
+#             for i in ev.message:
+#                 if i.type == 'at':
+#                     uid = int(i.data['qq'])
+#             if user := await UserInfo.get_info(uid,gid):
+#                 user_name = user.name
+#             else:
+#                 await bot.send(ev, '未查询到角色绑定信息',at_sender=True)
+#                 return
+#         if match_number := int(match[2]):
+#             if match_number > max_page:
+#                 await bot.send(ev, f'请输入{max_page}以内的序号',at_sender=True)
+#                 return
+#         else:
+#             await bot.send(ev, '请输入查询的比赛序号',at_sender=True)
+#             return
+#         if match_info := await get_match_detail_info(user_name,match_id,match_number):
+#             msg = await image_to_base64(await create_image_with_text(match_info.strip()))
+#             await bot.send(ev, msg, at_sender=True)
+#         else:
+#             await bot.send(ev, '查询失败',at_sender=True)
+#         return
+#     except Exception:
+#         traceback.print_exc()
+#         await bot.send(ev, '查询失败',at_sender=True)
+#         return
+    
+# @sv.on_rex(re.compile(r'^(jjc)测试([1-9])(\S*)$'))
 @sv.on_rex(re.compile(r'^(jjc)详情([1-9])(\S*)$'))
 async def _(bot, ev):
     try:
@@ -73,18 +115,25 @@ async def _(bot, ev):
         else:
             await bot.send(ev, '请输入查询的比赛序号',at_sender=True)
             return
-        if match_info := await get_match_detail_info(user_name,match_id,match_number):
-            msg = await image_to_base64(await create_image_with_text(match_info.strip()))
-            await bot.send(ev, msg, at_sender=True)
+        if image_enable:
+            if not (match_info := await get_match_detail_info(user_name,match_id,match_number,only_json=True)):
+                await bot.send(ev, '查询失败',at_sender=True)
+                return
+            if not (msg := await draw_jjc_info(match_info)):
+                msg = '图片生成失败'
         else:
-            await bot.send(ev, '查询失败',at_sender=True)
+            if not (match_info := await get_match_detail_info(user_name,match_id,match_number)):
+                await bot.send(ev, '查询失败',at_sender=True)
+                return
+            msg = await image_to_base64(await create_image_with_text(match_info.strip(),font_name))
+        await bot.send(ev, msg, at_sender=True)
         return
     except Exception:
         traceback.print_exc()
         await bot.send(ev, '查询失败',at_sender=True)
         return
 
-@sv.on_rex(re.compile(r'^(zc|jjc)(\S*)$'))
+@sv.on_rex(re.compile(r'^(jjc)(\S*)$'))
 async def _(bot, ev):
     try:
         match = ev['match']
@@ -105,12 +154,14 @@ async def _(bot, ev):
             else:
                 await bot.send(ev, '未查询到角色绑定信息',at_sender=True)
                 return
-        if match_list := await get_match_info(user_name,match_id,1):
-            msg = await image_to_base64(await create_image_with_text(f"角色:{user_name}\n{match_list.strip()}"))
-            await bot.send(ev, msg, at_sender=True)
-
+        if not (match_list := await get_match_info(user_name,match_id,1,image_enable)):
+            await bot.send(ev, '查询失败',at_sender=True)
+        if image_enable:
+            if not (msg := await draw_mini_info(match_list)):
+                msg = '图片生成失败'
         else:
-            await bot.send(ev, '角色不存在',at_sender=True)
+            msg = await image_to_base64(await create_image_with_text(f"角色:{user_name}\n{match_list.strip()}",font_name))
+        await bot.send(ev, msg, at_sender=True)     
         return
     except Exception:
         traceback.print_exc()

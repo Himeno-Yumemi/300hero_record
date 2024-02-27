@@ -13,5 +13,9 @@
         "match_list":"https://300report.jumpw.com/api/battle/searchMatchs?type=h5",
         "match_info":"https://300report.jumpw.com/api/battle/searchMatchinfo?type=h5"
     },
-    "max_page": 8
+    "max_page": 8,
+    "image":{
+        "enable": true,
+        "font_name":"SourceHanSansSC-Regular.otf"
+    }
 }
