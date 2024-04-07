@@ -139,10 +139,13 @@ async def get_match_detail(mtid):
         traceback.print_exc()
         return None
     
-async def get_match_detail_info(rolename,match_type=1,number=1,only_json=False):
+async def get_match_detail_info(rolename,match_type=1,number=1,only_json=False,rid=None):
     try:
-        if not (RoleID := await get_user_rolename(rolename)):
-            return None
+        if not rid:
+            if not (RoleID := await get_user_rolename(rolename)):
+                return None
+        else:
+            RoleID = rid
         
         data ={
             'RoleID': RoleID,
@@ -233,15 +236,38 @@ async def send_user_match_info(match_list,match_type=1):
         traceback.print_exc()
         return None
 
-async def get_match_info(rolename,match_type=1,match_index=1,image_enable=False):
+async def get_match_info(rolename,match_type=1,match_index=1,image_enable=False,rid=None):
     try:
-        if not (RoleID := await get_user_rolename(rolename)):
-            return None
+        if not rid:
+            if not (RoleID := await get_user_rolename(rolename)):
+                return None
+        else:
+            RoleID = rid
         if image_enable:
             return await get_user_match_list(RoleID,match_type,match_index,only_json=True)
         if not (match_list := await get_user_match_list(RoleID,match_type,match_index)):
             return None
         return await send_user_match_info(match_list,match_type)
+    except Exception:
+        traceback.print_exc()
+        return None
+    
+async def check_last_mid(rid,mid):
+    try:
+        data ={
+            'RoleID': rid,
+            'MatchType': 1,
+            'searchIndex': 1
+        }
+        try:
+            async with httpx.AsyncClient(timeout=30) as client:
+                response = await client.post(url=match_list_url,data=data,headers=record_headers)
+                response.raise_for_status()
+        except Exception:
+            traceback.print_exc()
+            return None
+        MTID = response.json()['data']['Matchs']['Matchs'][0]['MTID']
+        return None if MTID == mid else MTID
     except Exception:
         traceback.print_exc()
         return None

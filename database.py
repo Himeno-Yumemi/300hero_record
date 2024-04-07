@@ -14,13 +14,16 @@ class UserInfo(Model):
     uid = fields.IntField(index=True)
     gid = fields.IntField(index=True)
     name = fields.CharField(max_length=30)
+    rid = fields.IntField(null=True,index=True)
+    auto = fields.BooleanField(default=False)
+    last_mid = fields.CharField(null=True,max_length=30)
     class Meta:
         table = 'user'
 
     #获取全部用户
     @classmethod
     async def get_all(cls):
-        if user_list := await cls.all().values_list('uid','gid','name'):
+        if user_list := await cls.filter(auto=True).values('uid', 'gid', 'rid', 'name', 'last_mid'):
             return user_list
 
     #获取用户信息
@@ -42,6 +45,15 @@ class UserInfo(Model):
         if await cls.get_or_none(uid=uid,gid=gid):
             await cls.filter(uid=uid,gid=gid).update(**kwargs)
             return True
+    
+    @classmethod
+    async def set_mid(cls,uid:list,gid:int,**kwargs):
+        try:
+            if await cls.filter(gid=gid,uid__in=uid).update(**kwargs):
+                return True
+        except Exception as e:
+            print(e)
+            return False
 
 async def init():
     await Tortoise.init(
@@ -50,6 +62,6 @@ async def init():
     )
     await Tortoise.generate_schemas()
 #增
-async def add_info(uid,gid,name):
-    user_info = UserInfo(uid=uid,gid=gid,name=name)
+async def add_info(uid,gid,name,rid):
+    user_info = UserInfo(uid=uid,gid=gid,name=name,rid=rid)
     await user_info.save()
