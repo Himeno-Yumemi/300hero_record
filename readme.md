@@ -4,6 +4,9 @@
 ![PythonVer](https://img.shields.io/badge/python-3.8+-blue)
 [![HoshinoVer](https://img.shields.io/badge/Hoshino-v2.0.0%2B-green)](https://github.com/Ice-Cirno/HoshinoBot)
 
+> [!WARNING] 
+> 由于最近官方战报接口对请求进行了限流,可能会出现查询失败的情况,等待5秒即可(可能会对自动推送产生影响)
+
 > __重要更新__
 > 
 > 2024年1月9日 首次上传
@@ -14,7 +17,7 @@
 > 
 > 2024年4月7日 自动推送功能测试
 
-> [!WARNING] \
+> [!IMPORTANT] 
 > 数据库暂时无法合并 我手动新增的键,暂时没了解tortoise怎么迁移数据库
 
 
