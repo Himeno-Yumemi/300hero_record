@@ -1,7 +1,15 @@
 {
-    "331": {
-        "name": "飘舞诺·乔巴纳",
-        "head": "UI\\head\\role\\chara_0255.bmp"
+    "319": {
+        "name": "坂本",
+        "head": "UI\\head\\role\\chara_0319.bmp"
+    },
+    "318": {
+        "name": "吕小鱼",
+        "head": "UI\\head\\role\\chara_0318.bmp"
+    },
+    "317": {
+        "name": "吕树",
+        "head": "UI\\head\\role\\chara_0317.bmp"
     },
     "316": {
         "name": "东风谷早苗",
@@ -456,7 +464,7 @@
         "head": "UI\\Head\\role\\chara_0196.bmp"
     },
     "195": {
-        "name": "沢田纲吉",
+        "name": "梦原望",
         "head": "UI\\head\\role\\chara_0195.bmp"
     },
     "194": {

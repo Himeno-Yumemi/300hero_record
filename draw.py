@@ -117,8 +117,8 @@ async def draw_jjc_info(json_data):
         # 将HeroID和HeroLv绘制到画布上
         draw.text((10, font2_line_spacing+line_spacing), f'{HeroLv}', fill=(255,255,255), font=font2,stroke_fill=(0, 0, 0),stroke_width=2)
         overlay = await draw_image_on_canvas(overlay, HeroID, (60, image_line_spacing+line_spacing), 'hero')
-        draw.text((150, font_up_line_spacing+line_spacing), f'{hero}', fill=(0, 0, 0), font=font)
-        draw.text((150, font_down_line_spacing+line_spacing), f'{RN}', fill=(0, 0, 0), font=font)
+        draw.text((150, font_up_line_spacing+line_spacing), f'{RN}', fill=(0, 0, 0), font=font)
+        draw.text((150, font_down_line_spacing+line_spacing), f'{hero}', fill=(0, 0, 0), font=font)
 
         
         draw.text((330, font2_line_spacing+line_spacing), f'分:{FV}', fill=(0, 0, 0), font=font2)
