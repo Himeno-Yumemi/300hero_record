@@ -89,7 +89,7 @@ async def _(bot, ev):
 #         return
     
 # @sv.on_rex(re.compile(r'^(jjc)测试([1-9])(\S*)$'))
-@sv.on_rex(re.compile(r'^(jjc|sdz)详情([1-9])(\S*)$'))
+@sv.on_rex(re.compile(r'^(jjc|sdz|dld)详情([1-9])(\S*)$'))
 async def _(bot, ev):
     try:
         match = ev['match']
@@ -135,7 +135,7 @@ async def _(bot, ev):
         await bot.send(ev, '查询失败',at_sender=True)
         return
 
-@sv.on_rex(re.compile(r'^(jjc|sdz)(\S*)$'))
+@sv.on_rex(re.compile(r'^(jjc|sdz|dld)(\S*)$'))
 async def _(bot, ev):
     try:
         match = ev['match']

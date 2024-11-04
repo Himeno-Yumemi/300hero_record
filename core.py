@@ -37,7 +37,7 @@ async def get_hero_head(hero_id):
 
 async def get_equip_path(equip_id):
     if equip_data := equip_json.get(str(equip_id),None):
-        return equip_data['item_img']
+        return equip_data['item_img'].split(';')[0]
     return None
 
 async def get_user_rolename(rolename):
@@ -319,6 +319,8 @@ async def match_type(match_type):
         return 4
     elif match_type == 'pw':
         return 3
+    elif match_type == 'dld':
+        return 9
     else:
         return None
 
